@@ -54,7 +54,7 @@ function App() {
       }
       {finish &&
         <div className='mt-3 text-lg text-center' style={{ direction: 'rtl' }}>
-          הזמנה מספר 243 אושרה בהצלחה מחכים לראותך או משהו דומה!
+          הזמנה מספר 243 אושרה בהצלחה מחכים לראותך!
         </div>}
     </div>
   );

@@ -32,10 +32,10 @@ function App() {
       </h1>
       {!finish &&
         <>
-          <div className='mt-5'>
+          <div className='mt-5 text-center'>
             {getTimeRanges(parseInt(time)).map((val, idx) => {
               return (
-                <span key={idx} className={`border border-black rounded-lg p-2 mx-1 cursor-pointer hover:bg-cyan-600 hover:text-white ${selected === idx ? 'bg-cyan-600 text-white' : ''}`} onClick={(e) => { setSelected(idx); }}>
+                <span key={idx} className={`border border-black rounded-lg p-2 mx-1 cursor-pointer hover:bg-cyan-600 hover:text-white my-2 inline-block ${selected === idx ? 'bg-cyan-600 text-white' : ''}`} onClick={(e) => { setSelected(idx); }}>
                   {val}
                 </span>);
             })}
